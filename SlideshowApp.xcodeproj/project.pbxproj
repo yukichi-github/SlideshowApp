@@ -14,6 +14,11 @@
 		9A6614AE1F9C58B4002D4D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6614AC1F9C58B4002D4D74 /* LaunchScreen.storyboard */; };
 		9A6614B91F9C58B4002D4D74 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6614B81F9C58B4002D4D74 /* SlideshowAppTests.swift */; };
 		9A6614C41F9C58B4002D4D74 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6614C31F9C58B4002D4D74 /* SlideshowAppUITests.swift */; };
+		9A6614D51F9C5EF7002D4D74 /* 20170722_441.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6614D11F9C5EF7002D4D74 /* 20170722_441.jpg */; };
+		9A6614D61F9C5EF7002D4D74 /* 20170504_525.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6614D21F9C5EF7002D4D74 /* 20170504_525.jpg */; };
+		9A6614D71F9C5EF7002D4D74 /* 20161228_094.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6614D31F9C5EF7002D4D74 /* 20161228_094.jpg */; };
+		9A6614D81F9C5EF7002D4D74 /* 20161112_323.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6614D41F9C5EF7002D4D74 /* 20161112_323.jpg */; };
+		9A6614DA1F9C7977002D4D74 /* LargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6614D91F9C7977002D4D74 /* LargeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		9A6614BF1F9C58B4002D4D74 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6614C31F9C58B4002D4D74 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		9A6614C51F9C58B4002D4D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6614D11F9C5EF7002D4D74 /* 20170722_441.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20170722_441.jpg; sourceTree = "<group>"; };
+		9A6614D21F9C5EF7002D4D74 /* 20170504_525.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20170504_525.jpg; sourceTree = "<group>"; };
+		9A6614D31F9C5EF7002D4D74 /* 20161228_094.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20161228_094.jpg; sourceTree = "<group>"; };
+		9A6614D41F9C5EF7002D4D74 /* 20161112_323.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20161112_323.jpg; sourceTree = "<group>"; };
+		9A6614D91F9C7977002D4D74 /* LargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,14 @@
 				9A6614A31F9C58B4002D4D74 /* AppDelegate.swift */,
 				9A6614A51F9C58B4002D4D74 /* ViewController.swift */,
 				9A6614A71F9C58B4002D4D74 /* Main.storyboard */,
+				9A6614D91F9C7977002D4D74 /* LargeViewController.swift */,
 				9A6614AA1F9C58B4002D4D74 /* Assets.xcassets */,
 				9A6614AC1F9C58B4002D4D74 /* LaunchScreen.storyboard */,
 				9A6614AF1F9C58B4002D4D74 /* Info.plist */,
+				9A6614D11F9C5EF7002D4D74 /* 20170722_441.jpg */,
+				9A6614D21F9C5EF7002D4D74 /* 20170504_525.jpg */,
+				9A6614D31F9C5EF7002D4D74 /* 20161228_094.jpg */,
+				9A6614D41F9C5EF7002D4D74 /* 20161112_323.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -232,6 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6614D61F9C5EF7002D4D74 /* 20170504_525.jpg in Resources */,
+				9A6614D71F9C5EF7002D4D74 /* 20161228_094.jpg in Resources */,
+				9A6614D81F9C5EF7002D4D74 /* 20161112_323.jpg in Resources */,
+				9A6614D51F9C5EF7002D4D74 /* 20170722_441.jpg in Resources */,
 				9A6614AE1F9C58B4002D4D74 /* LaunchScreen.storyboard in Resources */,
 				9A6614AB1F9C58B4002D4D74 /* Assets.xcassets in Resources */,
 				9A6614A91F9C58B4002D4D74 /* Main.storyboard in Resources */,
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6614A61F9C58B4002D4D74 /* ViewController.swift in Sources */,
+				9A6614DA1F9C7977002D4D74 /* LargeViewController.swift in Sources */,
 				9A6614A41F9C58B4002D4D74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
